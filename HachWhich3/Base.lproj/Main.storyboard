@@ -55,6 +55,9 @@
                         <viewLayoutGuide key="safeArea" id="s8F-tP-fZr"/>
                     </view>
                     <navigationItem key="navigationItem" id="akc-Ff-zce"/>
+                    <connections>
+                        <outlet property="firstLabel" destination="RxF-fi-wao" id="hfZ-km-C0K"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CZy-6g-1zs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
