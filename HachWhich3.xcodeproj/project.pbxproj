@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A668766E2028F25800FB4208 /* viewControllerTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A668766D2028F25800FB4208 /* viewControllerTwoViewController.swift */; };
+		A68C0BC1205EED8100C78F61 /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68C0BC0205EED8100C78F61 /* ViewControllerThree.swift */; };
 		A6DF0D842028EA4300A42FF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DF0D832028EA4300A42FF6 /* AppDelegate.swift */; };
 		A6DF0D862028EA4300A42FF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DF0D852028EA4300A42FF6 /* ViewController.swift */; };
 		A6DF0D892028EA4300A42FF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6DF0D872028EA4300A42FF6 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		A668766D2028F25800FB4208 /* viewControllerTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewControllerTwoViewController.swift; sourceTree = "<group>"; };
+		A68C0BC0205EED8100C78F61 /* ViewControllerThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
 		A6DF0D802028EA4300A42FF6 /* HachWhich3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HachWhich3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6DF0D832028EA4300A42FF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6DF0D852028EA4300A42FF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				A6DF0D8A2028EA4300A42FF6 /* Assets.xcassets */,
 				A6DF0D8C2028EA4300A42FF6 /* LaunchScreen.storyboard */,
 				A6DF0D8F2028EA4300A42FF6 /* Info.plist */,
+				A68C0BC0205EED8100C78F61 /* ViewControllerThree.swift */,
 			);
 			path = HachWhich3;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				A6DF0D862028EA4300A42FF6 /* ViewController.swift in Sources */,
 				A6DF0D842028EA4300A42FF6 /* AppDelegate.swift in Sources */,
 				A668766E2028F25800FB4208 /* viewControllerTwoViewController.swift in Sources */,
+				A68C0BC1205EED8100C78F61 /* ViewControllerThree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

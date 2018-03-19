@@ -11,12 +11,12 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet var firstLabel: UILabel!
- 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-   self.firstLabel.text = "About"
+    
+    //self.firstLabel.text = "About Me
         
     }
 
@@ -25,5 +25,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
   
+    @IBOutlet var aboutMeText: UITextView!
+    func aboutMeTextBox() {
+        aboutMeText.text = "BUSCA 320-7"
 }
 
+}
