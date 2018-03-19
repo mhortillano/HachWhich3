@@ -14,20 +14,14 @@ class viewControllerTwoViewController: UIViewController {
 
     @IBOutlet var resultLabel: UILabel!
     
-    @IBAction func convert(_ sender: Any) {
-        
-        var convert = Int(inputBox.text!)!
-        
-        convert = (convert - 32) * 5/9
-        
-        resultLabel.text = "\(convert)"
-        
-    }
+    var convertedToString: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,4 +29,23 @@ class viewControllerTwoViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func convert(_ sender: Any) {
+        
+        var convert: Float
+        
+        var fahrenheit: Float
+       
+        fahrenheit = Float(inputBox.text!)!
+        
+        convert = (5/9 * (fahrenheit - 32))
+        
+        //need to create another variable that converts "convert" into a string
+        
+        convertedToString = String(convert)
+        
+        //print(convertedToString)
+        
+        resultLabel.text = (convertedToString)
+        
+    }
 }
